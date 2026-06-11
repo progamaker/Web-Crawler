@@ -1,0 +1,72 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║  Настройки поиска — редактируй только этот файл         ║
+# ╚══════════════════════════════════════════════════════════╝
+
+# Название товара (только для отображения)
+product_name = iPhone 16 128GB Black
+
+# Ключевые слова для проверки страницы товара
+# Все числа должны совпасть + хотя бы один цвет
+keywords = 16, 128, черн, black
+
+# Подстрока которая должна быть в URL страницы товара
+url_must_contain = iphone-16-128
+
+# URL категории — краулер пойдёт только по ссылкам содержащим эти подстроки
+# Это позволяет стартовать с главной и не уходить в ненужные разделы
+# Для Samsung: samsung, galaxy
+relevant_url_parts =
+    iphone-16
+    iphone16
+
+# Стартовые страницы 
+seed_urls =
+    https://optogadzhet.ru/
+    https://tatphone.ru/
+    https://igadget16.ru/
+
+# Разрешённые домены
+allowed_domains =
+    optogadzhet.ru
+    tatphone.ru
+    igadget16.ru
+
+# URL которые пропускать сразу
+skip_urls =
+    /cart/
+    /wishlist/
+    /account/
+    /checkout/
+    /privacy-policy
+    /rekvizity/
+    /warranty-and-service/
+    /services/
+    /credit/
+    /news
+    /login/
+    /register/
+    /profile/
+    ?add-to-cart=
+    /delivery
+    /about
+    /contacts
+    /info
+    /politika
+
+# Максимум страниц всего
+max_pages = 1000
+
+# Максимум страниц с ОДНОГО сайта
+max_pages_per_domain = 335
+
+# Глубина обхода
+max_depth = 3
+
+# Пауза между запросами в секундах
+delay = 1.0
+
+# ─────────────────────────────────────────────
+# Telegram уведомления
+# ─────────────────────────────────────────────
+telegram_token = 
+telegram_chat_id = 
